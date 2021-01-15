@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>My Tryber Todo List</h1>
+    </header>
+    <div class="content">
+      <p id="funcionamento" class="funcionamento">1) Clique duas vezes em um item para marcá-lo como completo</p>
+      <p id="funcionamento2" class="funcionamento">2) Clique uma vez em um item para selecioná-lo</p>
+      <div class="add">
+        <input type="text" id="texto-tarefa">
+        <button type="button" id="criar-tarefa" class="criar-tarefa">Adicionar</button>
+      </div>
+      
+      <ol id="lista-tarefas"></ol>
+      
+      <div class="setting">
+        <button type="button" id="salvar-tarefas" class="salvar-tarefas">salvar alterações</button>
+        
+        <button type="button" id="apaga-tudo" class="apaga-tudo">limpar lista</button>
+        <button type="button" id="remover-finalizados" class="remover-finalizados">remover completos</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

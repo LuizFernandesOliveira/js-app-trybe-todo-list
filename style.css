@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background-color: rgb(173, 195, 228);
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(135, 170, 223);
+}
+
+.content {
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: rgb(73, 71, 71);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  max-width: 720px;
+  width: 100%;
+}
+
+input {
+  line-height: 25px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  line-height: 25px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.criar-tarefa {
+  width: 100%;
+  max-width: 100px;
+}
+
+.add {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.completed {
+  background-image: url('image/finalized.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.funcionamento {
+  font-weight: 700;
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.funcionamento:first-child {
+  margin-top: 20px;
+}
+
+.funcionamento:last-child {
+  margin-top: 0;
+}
+
+ol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.todo-list-item {
+  align-items: center;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 2px 0;
+}
+
+.todo-list-item:last-child  {
+  border-bottom: 1px solid gray;
+}
+
+li {
+  width: 100%;
+  line-height: 30px;
+  list-style-position: inside;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.item-button {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item-button button {
+  font-weight: 700;
+  color: white;
+}
+
+.mover-cima {
+  background-color: rgb(11, 124, 11);
+}
+
+.btn-delete {
+  background-color: rgb(218, 9, 9);
+} 
+
+.mover-baixo {
+  background-color: rgb(189, 45, 105);
+}
+
+.apaga-tudo {
+  background-color: red;
+  color: white;
+}
+
+.remover-finalizados {
+  background-image: url('image/finalized.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 30px;
+}
+
+.salvar-tarefas {
+  background-color: rgb(0, 47, 255);
+  color: white;
+}
