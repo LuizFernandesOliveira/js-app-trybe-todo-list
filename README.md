@@ -1,9 +1,9 @@
 # js-app-trybe-todo-list
 
 Este aplicativo foi desenvolvido como requisto de aprovação no curso de Desenvolvimento de software
-na [Trybe](betrybe.com.br).
+na [Trybe](https://www.betrybe.com/?utm_source=trybe.com.br).
 
-[clique aqui]() para visualizar.
+[clique aqui](https://js-app-trybe-todo-list.netlify.app/) para visualizar.
 
 ## screenshots
 
